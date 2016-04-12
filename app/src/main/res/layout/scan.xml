@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick"
+        android:src="@drawable/cancel" />
+
+   <!-- <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_arrow"
+        android:onClick="onRight"
+        android:background="@android:color/transparent"
+
+        android:src="@drawable/right_arrow"
+        android:layout_gravity="right|bottom" />
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_arrow"
+        android:onClick="onLeft"
+        android:background="@android:color/transparent"
+
+        android:src="@drawable/left_arrow"
+        android:layout_gravity="left|bottom" />-->
+
+
+</FrameLayout>

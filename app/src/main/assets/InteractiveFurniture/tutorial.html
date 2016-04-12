@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="../arel/arel.js"></script>
+		<script type="text/javascript" src="Assets/logic.js"></script>
+		<link rel="stylesheet" type="text/css" href="../tutorials.css">
+
+		<style type="text/css">
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				margin: 0;
+			}
+
+			.button-container {
+				position: absolute;
+				top: 0.15cm;
+				left: 0.25cm;
+			}
+
+			.button {
+				border-radius: 6px;
+				background-color: #e7e7e7;
+				border: 1px solid #ccc;
+				width: 72px;
+				height: 72px;
+				display: inline-block;
+			}
+
+			.button-container2 {
+				position: absolute;
+				bottom: 0.3cm;
+				right: 0.5cm;
+			}
+
+			.button2 {
+				display: block;
+				width: 120px;
+				background-color: #e7e7e7;
+				border: 1px solid #ccc;
+				padding: 0.3em 0.5em;
+				text-align: center;
+				box-sizing: border-box;
+				font-size: 1em;
+			}
+
+			.button2:hover, .button2:active {
+				background-color: #ddd;
+			}
+		</style>
+
+		<title>Tutorial Interactive Furniture</title>
+	</head>
+	<body>
+		<div class="button-container2">
+			<button class="button2" onclick="event.preventDefault(); onTakePictureButtonClicked();">Take picture</button>
+			<button class="button2" onclick="event.preventDefault(); onResetButtonClicked();">Reset</button>
+			<button class="button2" onclick="event.preventDefault(); onSaveScreenshotButtonClicked();">Save screenshot</button>
+		</div>
+
+		<div class="button-container">
+			<div>
+				<a href="#" class="button" id="button3" onclick="onTVButtonClicked()"><img id="tvImage" src="Assets/button_tv_unselected.png" /></a>
+			</div>
+			<div>
+				<a href="#" class="button" id="button2" onclick="onChairButtonClicked()"><img id="chairImage" src="Assets/button_chair_unselected.png" /></a>
+			</div>
+			<div>
+				<a href="#" class="button" id="button1" onclick="onManButtonClicked()"><img id="manImage" src="Assets/button_man_unselected.png" /></a>
+			</div>
+		</div>
+	</body>
+</html>

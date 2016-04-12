@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/menu_left"
+        android:icon="@drawable/left_arrow"
+        android:title="Previous"
+        />
+
+    <item android:id="@+id/menu_right"
+        android:icon="@drawable/right_arrow"
+        android:title="Next"
+
+
+        />
+
+    <item android:id="@+id/menu_rotate"
+        android:icon="@drawable/rotate"
+        android:title="Rotate"
+
+    />
+    <item android:id="@+id/menu_buy"
+        android:icon="@drawable/buy"
+        android:title="Buy"
+
+        />
+
+</menu>

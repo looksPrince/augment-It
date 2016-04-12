@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:onClick="onButtonClick"
+        android:src="@drawable/cancel" />
+
+   <!-- <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_arrow"
+        android:onClick="onRight"
+        android:background="@android:color/transparent"
+
+        android:src="@drawable/right_arrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_arrow"
+        android:onClick="onLeft"
+        android:background="@android:color/transparent"
+
+        android:src="@drawable/left_arrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />-->
+
+    <LinearLayout
+        android:id="@+id/layoutGeometries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/instant2DSLAMExtrapolationButton"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="#0000"
+        android:layout_gravity="start"
+        android:onClick="on2DSLAMExtrapolationButtonClicked"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_chair_unselected" />
+
+</LinearLayout>
+
+</RelativeLayout>
